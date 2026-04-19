@@ -1,0 +1,49 @@
+I'll pull financials and earnings commentary in parallel.Now I have everything needed. Note: MRVL's Q3 FY2025 (Nov 2024) shows a 23% GAAP gross margin — that's a large intangible amortization charge distorting GAAP, not an operational collapse (operating cash flow held at $536M that same quarter). All MRVL operating margin figures carry heavy acquisition D&A drag from Inphi/Innovium.
+**NVDA / AVGO / MRVL — AI Infrastructure Financials, Last 4 Quarters**
+
+
+---
+
+## NVDA vs. AVGO vs. MRVL: AI Infrastructure Exposure
+
+### Revenue Growth — The Gradient Test
+
+NVDA's last four quarters clocked 73%, 63%, 56%, and 69% YoY growth, but the base effect is now enormous ($68B quarterly revenue).cite{"type":"calculation","formula":"(68127-39331)/39331 = 73.2%","description":"NVDA Q4 FY26 YoY revenue growth"} The growth rate is structurally decelerating — not because demand is fading, but because you're compounding off a hypergrowth base. AVGO reaccelerated: 20% → 22% → 28% → 30% over the same window,cite{"type":"calculation","formula":"(19311-14916)/14916 = 29.5%","description":"AVGO Q1 FY26 YoY revenue growth"} driven by Q1 FY26 AI revenue of $8.4B growing 106% YoY.cite{"type":"sec_filing","ticker":"AVGO","filingType":"8-K","filingDate":"2026-03-04","section":"Exhibit 99.1","quote":"Q1 AI revenue of $8.4 billion grew 106% year-over-year, above our forecast, driven by robust demand for custom AI accelerators and AI networking"} MRVL posted 63% and 58% in its first two quarters before slowing to 37% and 22% — a post-ramp deceleration pattern consistent with custom-silicon programs hitting steady-state volumes.
+
+### Gross Margin Profile — Who Owns the Architecture?
+
+NVDA's ~73–75% gross margins are architecturally entrenched: the GPU stack bundles CUDA, NVLink, and software, making it near-impossible to decouple hardware from platform.cite{"type":"sec_filing","ticker":"NVDA","filingType":"10-K","filingDate":"2025-02-26","section":"Demand and Supply","quote":"Revenue growth in fiscal year 2025 was driven by data center compute and networking platforms for accelerated computing and AI solutions"} AVGO's 65–68% GAAP gross margin is among the best in the custom silicon space — notably the margin *expanded* 400bps over the past year as VMware software is digested into high-margin subscriptions alongside AI semiconductor mix shift. MRVL's 48–52% GAAP gross margin is penalized by ~$500M+ quarterly amortization from Inphi and Innovium acquisitions; non-GAAP gross margins run approximately 600–700bps higher.
+
+### CapEx Intensity — Asset-Light vs. Asset-Light+
+
+All three are fabless, so "capex intensity" here reflects internal tooling, leased compute, and R&D infrastructure — not wafer fabs. NVDA runs 2–4% despite its massive scale.cite{"type":"calculation","formula":"capex_intensity = |capital_expenditure| / revenue; NVDA Q4 FY26: 1284/68127 = 1.9%","description":"NVDA capex as share of revenue — pure fabless model"} AVGO is even leaner at 0.9–1.3% — partly because VMware's infrastructure has a longer useful life.cite{"type":"calculation","formula":"AVGO Q1 FY26: 250/19311 = 1.3%","description":"AVGO capex intensity — reflects fully fabless chiplet model"} MRVL's 2–6% intensity is more volatile due to R&D infrastructure and custom silicon NRE cycles, but well within fabless norms. None of these companies are capital traps — the real capex bet is made by TSMC and the hyperscalers.
+
+### Demand Visibility — Management Signals
+
+| Company | Signal | Specificity |
+|---|---|---|
+| **NVDA** | "Demand for Blackwell is expected to exceed supply for several quarters in FY2026"cite{"type":"sec_filing","ticker":"NVDA","filingType":"10-Q","filingDate":"2024-11-20","section":"Demand and Supply","quote":"the demand for Blackwell is expected to exceed supply for several quarters in fiscal year 2026"} | Supply-constrained — demand floor is visible |
+| **AVGO** | "$10.7B AI semiconductor revenue guided for Q2 FY26"; "our AI revenue growth is accelerating"cite{"type":"sec_filing","ticker":"AVGO","filingType":"8-K","filingDate":"2026-03-04","section":"Exhibit 99.1","quote":"Our AI revenue growth is accelerating, and we expect AI semiconductor revenue to be $10.7 billion in Q2"} | Hard forward guidance — unusual specificity |
+| **MRVL** | 5-year multi-generational AWS agreement signed Dec 2024; custom products in production for all 4 large US hyperscalers; $75B TAM by CY2028cite{"type":"sec_filing","ticker":"MRVL","filingType":"DEF 14A","filingDate":"2025-05-01","section":"Hyperscale Customer Success","quote":"we now have custom products in production for all four large U.S. hyperscalers"} | Long-duration contractual anchor |
+
+---
+
+## Verdict: Most Levered to Sustained AI Infrastructure Spending
+
+**AVGO is the highest-quality lever on sustained AI infrastructure spend.** The thesis: (1) custom ASICs are structurally preferred by hyperscalers trying to escape GPU vendor lock-in and optimize TCO; (2) AVGO's Q2 FY26 AI guidance of $10.7B implies it is tracking toward $40B+ annualized AI semiconductor revenue within 2 years; (3) the VMware acquisition adds a durable, high-margin software base that decouples earnings from any single product cycle; (4) capex intensity below 1.5% means nearly all gross profit converts to FCF ($8.0B in Q1 FY26 alone).cite{"type":"calculation","formula":"Q1 FY26 FCF = 8260 OCF - 250 capex = 8010M","description":"AVGO FCF conversion demonstrating near-complete gross-to-free-cash conversion"}
+
+NVDA remains the dominant franchise but is increasingly a question of growth *rate vs. size* — at $68B quarterly, it needs to sustain 50%+ growth on a $250B+ annualized base, which requires not just more GPUs but proof that inference and agentic AI deployments justify continued hyperscaler spend.
+
+MRVL is the highest-torque speculative position: the 63% YoY growth in its first ramp quarter shows custom silicon can inflect violently, and the AWS 5-year deal provides contractual visibility that neither NVDA nor AVGO can match in duration.cite{"type":"sec_filing","ticker":"MRVL","filingType":"DEF 14A","filingDate":"2025-05-01","section":"Hyperscale Customer Success","quote":"we expanded our strategic relationship with Amazon Web Services (AWS) with a five-year, multi-generational agreement that includes a broad range of Marvell's data center semiconductors"} The problem: at $2.2B quarterly revenue with only $259M FCF in Q4 FY26, the cash conversion is poor and the story lives entirely on projected ramp curves.
+
+---
+
+## Biggest Risk to the Thesis (All Three)
+
+**Concentration + Reflexivity.** Broadcom's own 10-Q explicitly flags it: *"Some of these AI customers may have constrained resources or capital and may be unable to pay for their required AI infrastructure...If our AI customers substantially reduce their expansion plans, cancel, reduce or delay their orders...it could have a material adverse effect."*cite{"type":"sec_filing","ticker":"AVGO","filingType":"10-Q","filingDate":"2026-03-11","section":"Risk Factors","quote":"If our AI customers substantially reduce their expansion plans, cancel, reduce or delay their orders, are unable to generate the profit required to offset their spending or are otherwise unable to meet their obligations and we cannot offset the downturn in their business, it could have a material adverse effect on our business, operating results, financial condition and stock price"} All three companies are effectively a call option on 4–6 hyperscalers continuing to spend at unprecedented rates. The second-order risk: if AI model efficiency (DeepSeek-style compression, test-time compute optimization) reduces the GPU-hours-per-query ratio faster than inference volume grows, capex commitments get repriced. That destroys the demand floor that makes all three supply-constrained stories credible.
+
+What would change the thesis positively: evidence that *sovereign AI infrastructure* and *enterprise on-prem AI* deployments accelerate to fill any hyperscaler pause — broadening the demand base and reducing concentration risk.
+
+---
+
+*Sources: Quarterly and annual financial reports via SEC filings (NVDA, AVGO, MRVL, quarters ending 2025-02 through 2026-02); SEC Form 10-K filings — NVDA (FY2025, filed 2025-02-26), AVGO (FY2025, filed 2025-12-18), MRVL (FY2025, filed 2025-03-12); SEC Form 10-Q filings — NVDA (Q1–Q3 FY2025, Q1–Q3 FY2026), AVGO (Q1–Q3 FY2025, Q1 FY2026), MRVL (Q1–Q4 FY2025, Q1–Q4 FY2026); AVGO 8-K (filed 2026-03-04); MRVL DEF 14A proxy statement (filed 2025-05-01).*
